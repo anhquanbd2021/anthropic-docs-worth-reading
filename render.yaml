@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: anthropic-docs-failure-map
+    runtime: node
+    plan: free
+    buildCommand: npm run check
+    startCommand: npm start
+    healthCheckPath: /health

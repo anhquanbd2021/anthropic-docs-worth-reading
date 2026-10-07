@@ -1,0 +1,15 @@
+{
+  "name": "anthropic-docs-failure-map-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Doc-as-diagnostic map — 17 Anthropic docs rendered as a failure-mode map, not a reading list.",
+  "scripts": {
+    "start": "node app/server.js",
+    "test": "node --test \"test/*.test.mjs\"",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

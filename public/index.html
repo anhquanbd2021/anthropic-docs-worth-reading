@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Interactive failure-mode map — pick the symptom you are living and the map highlights the one Anthropic doc that fixes it, plus the wrong path most people take instead.">
+<title>Anthropic Docs — Failure-Mode Map</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main>
+<header class="hero">
+  <p class="kicker">Seventeen docs is not a checklist</p>
+  <h1>The Anthropic docs are a map of the mistakes you are going to make.</h1>
+  <p class="lede">Pick the symptom you are living right now. The map highlights the one doc that fixes it — and the wrong path most people take instead.</p>
+</header>
+
+<section class="symptoms" id="symptoms" aria-label="Pick your symptom">
+</section>
+
+<section class="map-grid" id="map" aria-label="Failure-mode map">
+</section>
+
+<section class="diagnosis" id="diagnosis" aria-label="Diagnosis" aria-live="polite" hidden>
+</section>
+</main>
+
+<script type="module" src="/app.js"></script>
+</body>
+</html>
